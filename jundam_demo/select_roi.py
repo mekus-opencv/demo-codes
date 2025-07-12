@@ -11,7 +11,7 @@ cv2.destroyAllWindows()
 x, y, w, h = roi
 
 # Crop the selected region from the original image
-cropped_roi = image[y:y+h, x:x+w]
+cropped_roi = image[y : y + h, x : x + w]
 
 # Display the cropped region
 cv2.imshow("Selected ROI", cropped_roi)
