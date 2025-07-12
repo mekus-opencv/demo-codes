@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("sample.jpg")
+image = cv2.imread("image.png")
 converted_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 cv2.imshow("Output Image", converted_image)
