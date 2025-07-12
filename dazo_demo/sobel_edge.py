@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 
 img = cv2.imread("image.png")
-img = cv2.resize(img, (600, 400))
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 sobel_x = cv2.Sobel(gray, cv2.CV_64F, 1, 0, ksize=3)
