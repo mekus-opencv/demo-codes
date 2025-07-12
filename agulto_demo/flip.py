@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("sample.jpg")
+image = cv2.imread("image.png")
 
 # Flip vertically (upside down)
 flipped = cv2.flip(image, 0)
