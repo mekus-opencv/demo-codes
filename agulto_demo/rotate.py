@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("sample.jpg")
+image = cv2.imread("image.png")
 
 # Rotate 90 degrees clockwise
 rotated = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
