@@ -10,6 +10,7 @@ sobel_y = cv2.Sobel(gray, cv2.CV_64F, 0, 1, ksize=3)
 sobel_combined = cv2.magnitude(sobel_x, sobel_y)
 sobel_combined = cv2.convertScaleAbs(sobel_combined)
 
+cv2.imshow("Original Image", img)
 cv2.imshow("Sobel X", cv2.convertScaleAbs(sobel_x))
 cv2.imshow("Sobel Y", cv2.convertScaleAbs(sobel_y))
 cv2.imshow("Sobel Combined", sobel_combined)
