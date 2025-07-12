@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("sample.jpg")
+image = cv2.imread("image.png")
 resized = cv2.resize(image, (300, 200))
 
 cv2.imshow("Resized Image", resized)
