@@ -1,7 +1,7 @@
 import cv2
 
 # Load an image
-image = cv2.imread("image.png")  # You can replace this with your desired filepath
+image = cv2.imread("image.png")  # You can replace this image
 
 # Let the user draw a region of interest
 roi = cv2.selectROI("Select ROI", image, fromCenter=False, showCrosshair=True)
