@@ -1,7 +1,6 @@
 import cv2
 
 img = cv2.imread("image.png")
-img = cv2.resize(img, (600, 400))
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 laplacian = cv2.Laplacian(gray, cv2.CV_64F, ksize=3)
